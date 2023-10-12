@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import '../App.css'
 const Header = () => {
   return (
-    <>
+   
       <header className="flex items-center justify-center bg-slate-500">
         <div className="">LOGO</div>
 
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <Outlet />
       </header>
-    </>
+   
   );
 };
 
