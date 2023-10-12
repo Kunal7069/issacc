@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Clubs from "./components/Clubs";
 import About from "./components/About";
 import Events from "./components/Events";
+import People from "./components/People";
 import "./App.css"; // Move this import after your component imports
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Clubs" element={<Clubs />} />
           <Route path="/Events" element={<Events />} />
+          <Route path="/People" element={<People />} />
         </Routes>
       </Router>
     </>

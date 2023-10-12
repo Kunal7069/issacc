@@ -1,33 +1,59 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import '../App.css'
+import "../App.css";
+
 const Header = () => {
   return (
-   
-      <header className="flex items-center justify-center bg-slate-500">
-        <div className="">LOGO</div>
+    <header className="flex items-end justify-end bg-blue-900 h-[10vh]">
+      <div className="absolute top-6 left-6">LOGO</div>
 
-        <div className="flex items-end justify-end">
-          <nav>
-            <ul>
-              <li>
-                <Link to="/"> Home </Link>
-              </li>
-              <li>
-                <Link to="/About"> About </Link>
-              </li>
-              <li>
-                <Link to="/Events"> Events </Link>
-              </li>
-              <li>
-                <Link to="/Clubs"> Clubs </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <Outlet />
-      </header>
-   
+      <nav>
+        <ul className="flex mb-6 mr-10 space-x-5">
+          <li className="cursor-pointer">
+            <Link
+              to="/"
+              className="p-2 text-white border border-transparent rounded-full hover:border-blue-200 hover:text-gray-300 "
+            >
+              Home
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              to="/About"
+              className="p-2 text-white border border-transparent rounded-full hover:border-blue-200 hover:text-gray-300"
+            >
+              About
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              to="/Events"
+              className="p-2 text-white border border-transparent rounded-full hover:border-blue-200 hover:text-gray-300"
+            >
+              Events
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              to="/Clubs"
+              className="p-2 text-white border border-transparent rounded-full hover:border-blue-200 hover:text-gray-300"
+            >
+              Clubs
+            </Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              to="/People"
+              className="p-2 text-white border border-transparent rounded-full hover:border-blue-200 hover:text-gray-300"
+            >
+              People
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Outlet />
+    </header>
   );
 };
 
