@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
+import Footer from "./Footer/Footer";
 
 const Clubs = () => {
   const clubsData = [
@@ -70,37 +71,42 @@ const Clubs = () => {
   ];
 
   return (
-    <div className="py-8 bg-gray-100">
-      <div className="container mx-auto">
-        <h1 className="mb-8 text-3xl font-bold text-center">The Clubs of IET</h1>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-          {clubsData.map((club, index) => (
-            <div
-              key={index}
-              className="overflow-hidden bg-white rounded-lg shadow-md"
-            >
-              <img
-                src={club.imageUrl}
-                alt={`Club ${index + 1}`}
-                className="object-cover w-full h-48"
-              />
-              <div className="p-4">
-                <h2 className="mb-2 text-xl font-semibold">{club.name}</h2>
-                <p className="mb-4 text-gray-600">{club.description}</p>
-                <a
-                  href={club.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-blue-500 hover:text-blue-700">
-                  <FaInstagram className="mr-2" />
-                  Follow on Instagram
-                </a>
+    <>
+      <div className="py-8 bg-gray-100">
+        <div className="container mx-auto">
+          <h1 className="mb-8 text-3xl font-bold text-center">
+            The Clubs of IET
+          </h1>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+            {clubsData.map((club, index) => (
+              <div
+                key={index}
+                className="overflow-hidden bg-white rounded-lg shadow-md"
+              >
+                <img
+                  src={club.imageUrl}
+                  alt={`Club ${index + 1}`}
+                  className="object-cover w-full h-48"
+                />
+                <div className="p-4">
+                  <h2 className="mb-2 text-xl font-semibold">{club.name}</h2>
+                  <p className="mb-4 text-gray-600">{club.description}</p>
+                  <a
+                    href={club.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-blue-500 hover:text-blue-700"
+                  >
+                    <FaInstagram className="mr-2" />
+                    Follow on Instagram
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
