@@ -11,7 +11,7 @@ const People = () => {
         <div className="w-48 h-48 overflow-hidden rounded-full shadow-lg">
           <img
             className="object-cover w-full h-full"
-            src="https://cdn.discordapp.com/attachments/1032581665953943574/1162081352229851246/Untitled-design---2023-07-11T161614386_64ad32f8940fc.png?ex=653aa398&is=65282e98&hm=c5cab5f4894f951e21cea9c08a0ef3953fc3607f37cfb9931305df07616fd124&"
+            src="https://www.ietlucknow.ac.in/sites/default/files/propic/photo%20satyendra%20singh.jpg"
             alt="Satyendra sir"
           />
         </div>
@@ -19,7 +19,7 @@ const People = () => {
 
       <div className="mt-4 text-center">
         <h3 className="text-xl font-semibold text-zinc-700">Dr. Satyendra Singh</h3>
-        <p className="text-slate-500">Chairman, ISSAC</p>
+        <p className="text-slate-500">Chairman, ISSACC</p>
       </div>
 
       {/* Add more content or styling here as needed */}

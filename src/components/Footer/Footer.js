@@ -9,7 +9,7 @@ const Footer = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.ietlucknow.ac.in"
+            href="https://www.instagram.com/_issacc.__/?igshid=NjIwNzIyMDk2Mg%3D%3D"
           >
             Follow us on Instagram
           </a>{" "}

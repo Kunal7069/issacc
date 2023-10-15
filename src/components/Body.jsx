@@ -3,13 +3,26 @@ import Footer from './Footer/Footer'
 const Body = () => {
   return (
     <>
-     <div className=" mt-80 flex items-center justify-center">
-      <img 
-      className="fixed items-center justify-center"
-      src="https://cdn.discordapp.com/attachments/1032581665953943574/1162638929753813032/Untitled-1.png?ex=653caae1&is=652a35e1&hm=61362364b61077158b928c32b9514db6f9cfe16dfd80da5dfd5223957c2c1d3d&" alt="LOGO" />
-     
-     </div>
-     <p className="flex items-center justify-center pt-40">issacc ka full form</p>
+     <div>
+      <h2 className="text-6xl font-bold text-center text-blue-400 pt-11">
+        About <span className="text-gray-300">ISSACC</span>
+      </h2>
+
+      <div className="flex items-center justify-center mt-10">
+        <p className="p-3 text-justify border border-neutral-950 mr-80 ml-80">
+        Instech Students Sports Arts and Cultural Council is the body functions under the guidance of our Chairman and Faculty Advisors. Our General Secretary and Joint General Secretary are the driving forces behind the council, leading and inspiring the teams to bring their best ideas and creativity to the table. They ensure that every event we organize is a memorable and engaging experience for everyone involved.
+
+The Event Management team is responsible for conceptualizing and executing the events, from planning to execution, ensuring that every detail is taken care of to make the event a success. The Photography and Videography team captures the moments and memories that make the event unforgettable.
+
+The Content Writing team creates compelling and engaging content that connects with our audience, conveying the message and essence of the event. The Graphic Designing team brings our vision to life, creating beautiful and visually striking designs that represent the spirit of the event.
+
+Finally, the Website and social media team is responsible for designing and maintaining the ISSACCs online presence, providing the information and updates necessary for our audience to stay informed and engaged.
+        </p>
+      </div>
+
+      {/* Footer Section */}
+      
+    </div>
    <Footer/>
     </>
   )

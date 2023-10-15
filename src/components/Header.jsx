@@ -10,7 +10,7 @@ const Header = () => {
           to="/"
           className="p-2 text-white hover:border-blue-200 hover:text-gray-300 "
         >
-          LOGO
+          ISSACC
         </Link>
       </div>
 
@@ -18,12 +18,7 @@ const Header = () => {
         <ul className="flex mb-6 mr-10 space-x-5">
           <li className="cursor-pointer"></li>
           <li className="cursor-pointer">
-            <Link
-              to="/About"
-              className="p-2 text-white border border-transparent rounded-full hover:border-blue-200 hover:text-gray-300"
-            >
-              About
-            </Link>
+            
           </li>
           <li className="cursor-pointer">
             <Link

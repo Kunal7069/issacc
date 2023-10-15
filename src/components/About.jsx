@@ -4,23 +4,18 @@ const About = () => {
   return (
     <div>
       <h2 className="text-6xl font-bold text-center text-blue-400 pt-11">
-        About <span className="text-gray-300">ISSAC</span>
+        About <span className="text-gray-300">ISSACC</span>
       </h2>
 
       <div className="flex items-center justify-center mt-10">
         <p className="p-3 text-justify border border-neutral-950 mr-80 ml-80">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-          eligendi, error modi veniam necessitatibus labore fugiat ducimus
-          asperiores expedita soluta distinctio qui aliquam mollitia unde
-          perferendis ea, animi incidunt itaque. Expedita atque provident
-          quibusdam recusandae adipisci perspiciatis repellendus molestias
-          blanditiis dicta voluptatibus quis corporis aperiam quae at quaerat
-          aspernatur veritatis cupiditate tempore vero, iusto, earum odio nobis
-          illum. Facilis nostrum deleniti voluptatem alias fugiat hic qui beatae
-          veritatis id ducimus ex vero ratione quaerat necessitatibus eum
-          inventore, reprehenderit earum. Adipisci eligendi, ipsa rerum officia
-          ex nulla veniam vero quas eaque doloribus quam quo, autem totam natus
-          corporis quia voluptatem maiores.
+        Instech Students Sports Arts and Cultural Council is the body functions under the guidance of our Chairman and Faculty Advisors. Our General Secretary and Joint General Secretary are the driving forces behind the council, leading and inspiring the teams to bring their best ideas and creativity to the table. They ensure that every event we organize is a memorable and engaging experience for everyone involved.
+
+The Event Management team is responsible for conceptualizing and executing the events, from planning to execution, ensuring that every detail is taken care of to make the event a success. The Photography and Videography team captures the moments and memories that make the event unforgettable.
+
+The Content Writing team creates compelling and engaging content that connects with our audience, conveying the message and essence of the event. The Graphic Designing team brings our vision to life, creating beautiful and visually striking designs that represent the spirit of the event.
+
+Finally, the Website and social media team is responsible for designing and maintaining the ISSACCs online presence, providing the information and updates necessary for our audience to stay informed and engaged.
         </p>
       </div>
 
